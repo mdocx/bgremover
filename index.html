@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Background Remover</title>
+    <link rel="shortcut icon" type="image/png" href="./images/logo1.png" />
+</head>
+<body>
+    
+
+    <header class="header" role="banner" id="top">
+        <div class="row">
+          <div class="logos" ><a href="#">
+          <img src="./images/logo1.png" alt=""></a>
+        </div>
+          <!-- Navigation menu -->
+          <nav class="nav" role="navigation">
+            <ul class="nav__items">
+              <!-- Navigation links -->
+             
+          </nav>
+          <div class="header-row">
+          <h1>
+            <span >Image Background Be Gone!</span>
+          </h1>
+          <p>Effortlessly Remove Image Backgrounds Like Magic</p>
+        </div>
+        </div>
+    </header>
+<section>
+    <div class="container">
+      <div class="human">
+        <img src="" alt="">
+      </div>
+        <h1>Upload the image to remove the background</h1>
+        <input type="file" id="image-input" style="display:none;" accept="image/*" />
+        <button id="upload-button">Upload Image</button>
+        
+        <!-- Drag & Drop Area -->
+        <div class="drop-area" id="drop-area">
+            <p>Drag & Drop Image Here or Click to Upload</p>
+        </div>
+
+        <img id="thumbnail" src="index.html" alt="Image Preview" />
+        <img id="uploaded-image" src="index.html" alt="Processed Image" />
+        <button id="download-button">Download Image</button>
+    </div>
+</section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
